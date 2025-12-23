@@ -1,9 +1,9 @@
 # TensorFlow and related libraries
 tensorflow
 keras
-tensorflow-extended
+# tensorflow-extended
 tensorboard
-tensorflow-lite
+# tensorflow-lite
 
 # PyTorch and related libraries
 torch
@@ -26,7 +26,7 @@ seaborn
 jax
 jaxlib
 
-# Scikit-learn — ведущая библиотека для классического машинного обучения (регрессия, классификация, кластеризация, препроцессинг и подбор гиперпараметров).
+scikit-learn
 
 # FastAI — надстройка над PyTorch, упрощающая глубокое обучение и эффективная для computer vision и NLP задач.
 
