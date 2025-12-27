@@ -22,6 +22,10 @@ polars
 matplotlib
 seaborn
 
+asyncpg
+pgvector
+psycopg2-binary
+
 # JAX for high-performance computing
 jax
 jaxlib

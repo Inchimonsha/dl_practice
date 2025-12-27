@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book category="classic">
+    <title>Приключения Гекльберри Финна</title>
+    <author>Марк Твен</author>
+    <year>1884</year>
+    <price>499</price>
+  </book>
+  <book category="poetry">
+    <title>Листья травы</title>
+    <author>Уолт Уитмен</author>
+    <year>1855</year>
+    <price>399</price>
+  </book>
+  <book category="classic">
+    <title>Портрет дамы</title>
+    <author>Генри Джеймс</author>
+    <year>1881</year>
+    <price>579</price>
+  </book>
+  <book category="classic">
+    <title>Война и мир</title>
+    <author>Лев Толстой</author>
+    <year>1869</year>
+    <price>1299</price>
+  </book>
+  <book category="classic">
+    <title>Преступление и наказание</title>
+    <author>Фёдор Достоевский</author>
+    <year>1866</year>
+    <price>699</price>
+  </book>
+  <book category="fantasy">
+    <title>Мастер и Маргарита</title>
+    <author>Михаил Булгаков</author>
+    <year>1967</year>
+    <price>599</price>
+  </book>
+  <book category="dystopia">
+    <title>1984</title>
+    <author>Джордж Оруэлл</author>
+    <year>1949</year>
+    <price>449</price>
+  </book>
+  <book category="fantasy">
+    <title>Гарри Поттер и философский камень</title>
+    <author>Дж. К. Роулинг</author>
+    <year>1997</year>
+    <price>799</price>
+  </book>
+</library>
