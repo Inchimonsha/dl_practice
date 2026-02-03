@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+  <person id="1">
+    <name>Иван Иванов</name>
+  </person>
+  <person id="2">
+    <name>Мария Петрова</name>
+  </person>
+  <person id="3">
+    <name>Алексей Сидоров</name>
+  </person>
+  <person id="4">
+    <name>Елена Козлова</name>
+  </person>
+  <person id="5">
+    <name>Дмитрий Смирнов</name>
+  </person>
+</persons>

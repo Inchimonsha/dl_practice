@@ -1,0 +1,34 @@
+networks:
+  network:
+    driver: bridge
+
+services:
+  postgres_dl:
+    container_name: postgres_dl
+    image: pgvector/pgvector:pg17
+    ports:
+      - "5436:5432"
+    restart: always
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: userdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: user
+
+  minio_dl:
+    container_name: minio_dl
+    image: minio/minio:latest
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    command: server /data --console-address ":9001"
+    restart: always
+
+volumes:
+  minio_data:

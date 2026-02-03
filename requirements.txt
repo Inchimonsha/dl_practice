@@ -1,0 +1,51 @@
+# TensorFlow and related libraries
+tensorflow
+keras
+# tensorflow-extended
+tensorboard
+# tensorflow-lite
+
+# PyTorch and related libraries
+torch
+torchvision
+torchaudio
+torchtext
+
+transformers
+jupyter
+
+numpy
+
+pandas
+polars
+
+matplotlib
+seaborn
+
+asyncpg
+pgvector
+psycopg2-binary
+
+# JAX for high-performance computing
+jax
+jaxlib
+
+scikit-learn
+
+# FastAI — надстройка над PyTorch, упрощающая глубокое обучение и эффективная для computer vision и NLP задач.
+
+# PyCaret — фреймворк для low-code AutoML, автоматизация и быстрое прототипирование решений.
+
+# Ray — фреймворк для распределённых вычислений, масштабируемого обучения моделей и параллельных задач.
+
+# Dask — работа с большими объёмами данных и параллельными вычислениями, интеграция с pandas и numpy.
+
+# PySpark — API для Apache Spark на Python, анализ больших данных в кластере.
+
+# SQLAlchemy — универсальное средство работы с базами данных через ORM.
+
+# OpenCV — для обработки изображений и видео, применяется для компьютерного зрения.
+
+# YOLO — нейросетевая библиотека для обнаружения объектов в реальном времени, популярна для задач CV.
+
+# Coqui TTS — библиотека для синтеза речи.
